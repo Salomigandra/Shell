@@ -57,7 +57,7 @@ int main(int argc, char* argv[]) {
     char* args[Maximum_args];
 /*infinite loop for prompt to execute until user entered quit command and used 'break' to execute before exiting from shell */
     while (1) {
-        printf("Group27 $  ");
+        printf("Shell $  ");
 /* fgets() to capture the user keyboard input from the specified stream and stores it */
         fgets(lines, Maximum_Lines, stdin); /* stdin used as an argument to read from the standard input.*/
         lines[strcspn(lines, "\n")] = '\0';
